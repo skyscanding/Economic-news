@@ -1,0 +1,11 @@
+# Secrets — never commit
+.env
+
+# Runtime output + caches
+output/
+**/__pycache__/
+*.pyc
+.pytest_cache/
+
+# Virtualenv
+.venv/
