@@ -6,7 +6,7 @@ Two ways to use it — CLI flags override the CONFIG defaults below:
     python debug.py                                  # use the defaults below
     python debug.py --sections Technology World      # only these sections
     python debug.py --vendors Reuters Bloomberg      # only these vendors
-    python debug.py --key AIza... --model gemini-3-flash-preview
+    python debug.py --key YOUR_GEMINI_KEY --model gemini-3-flash-preview
     python debug.py --no-open                        # write file, don't launch browser
     python debug.py --list                           # show available sources and exit
 
